@@ -1,0 +1,47 @@
+:root {
+    --main-color: rgb(255, 0, 98);
+    --text-color: #000000;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--main-color);
+}
+
+.logo{
+    width: 10vw;
+    height: 10vw;
+}
+.items li{
+    display: flex;
+    float: right;
+    padding-right: 10px;
+    
+}
+.items li a{
+    text-decoration: none;
+    color: var(--text-color);
+    border-radius: 10%;
+}
+.items li a:hover{
+    cursor: pointer;
+    background-color: tomato;
+}
+@media (max-width: 600px) {
+    .logo {
+        width: 20vw;
+        height: 10vh;
+    }
+    .items li {
+        display: block;
+        text-align: center;
+        padding: 5px 0;
+    }
+    .items li a {
+        display: block;
+        padding: 10px;
+    }
+}
