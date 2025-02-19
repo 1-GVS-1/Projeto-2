@@ -6,16 +6,36 @@
     <title>TEST</title>
     <link rel="icon" href="logo.png">
     <link rel="stylesheet" href="Style.css">
+    <script src="JS.js" defer></script>
 </head>
 <body>
-    <nav class="items">
-        <img src="logo.png" alt="logo" class="logo">
-        <ul>
-            <li><a href="#">CONTATOS</a></li>
-            <li><a href="#">SOBRE</a></li>
-            <li><a href="#">HOME</a></li>
-
+    <nav class="links">
+        <a href="index.html" class="logo"><img src="icon.png" alt="logo"></a>
+        <ul class="menu">
+            <li><a class="item" href="#">INICIO</a></li>
+            <li><a class="item" href="#">CONTATOS</a></li>
+            <li><a class="item" href="index.html">SOBRE</a></li>
+        </ul>
+        <button id="button" onclick="menumobile()">☰</button>
+        <br>
+        <ul class="menu-mobile">
+            <li class="item-mobile"><a class="item-mobile" href="index.html">INICIO</a></li>
+            <li class="item-mobile"><a class="item-mobile" href="#">CONTATOS</a></li>
+            <li class="item-mobile"><a class="item-mobile" href="#">SOBRE</a></li>
         </ul>
     </nav>
+    <div class="content">
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos voluptatem aut totam vitae ad, eius aliquam, laboriosam non sequi sapiente ducimus accusamus maiores quas in laborum ipsum, pariatur voluptatibus tempora!</p>
+    <br>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <br>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non urna vitae libero fermentum tincidunt. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada.</p>
+    <br>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non urna vitae libero fermentum tincidunt. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada.</p>
+    <br>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non urna vitae libero fermentum tincidunt. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada.</p>
+    <br>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non urna vitae libero fermentum tincidunt. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada.</p>
+    </div>
 </body>
 </html>
